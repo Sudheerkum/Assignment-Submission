@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNDcDJa1Yry4+ddbfA6Y0Ir",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sudheerkum/Assignment-Submission/blob/main/assignment1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "I7KV2z3_KRf7",
+        "outputId": "ada79794-d041-468d-f12d-dc1bc69816fa"
+      },
+      "source": [
+        "li=[3, 5, 1, 9, 2]\n",
+        "li.sort()\n",
+        "print(li)\n",
+        "\n",
+        "li.reverse()\n",
+        "print(li)"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "[1, 2, 3, 5, 9]\n",
+            "[9, 5, 3, 2, 1]\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
